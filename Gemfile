@@ -33,6 +33,8 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'pg'
 gem 'dotenv-rails'
+gem 'graphql', '1.7.4'
+gem 'graphiql-rails', '1.4.4', group: :development
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
